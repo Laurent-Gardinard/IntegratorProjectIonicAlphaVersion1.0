@@ -1,0 +1,14 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+    --ion-color-primary: #4CAF50;
+    --ion-color-secondary: #FFC107;
+    --ion-font-family: 'Roboto', sans-serif;
+}
+
+ion-tab-bar {
+    --background: #f8f8f8;
+    --color: #333;
+    --color-selected: var(--ion-color-primary);
+    font-size: 14px;
+}
